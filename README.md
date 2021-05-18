@@ -19,7 +19,7 @@
 1. Add `nuxt-breakpoints` dependency to your project
 
 ```bash
-yarn add nuxt-breakpoints # or npm install nuxt-breakpoints
+yarn add magersoft/nuxt-breakpoints # or npm install magersoft/nuxt-breakpoints
 ```
 
 2. Add `nuxt-breakpoints` to the `modules` section of `nuxt.config.js`
@@ -28,10 +28,10 @@ yarn add nuxt-breakpoints # or npm install nuxt-breakpoints
 {
   modules: [
     // Simple usage
-    'nuxt-breakpoints',
+    '@magersoft/nuxt-breakpoints',
 
     // With options
-    ['nuxt-breakpoints', { /* module options */ }]
+    ['@magersoft/nuxt-breakpoints', { /* module options */ }]
   ]
 
   // Another way to use options
